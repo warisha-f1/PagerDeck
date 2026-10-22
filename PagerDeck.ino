@@ -22,12 +22,12 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 // --- Adafruit IO Credentials ---
-const char* aioUsername = "Your Adafruit Username";
+const char* aioUsername = "Your_Adafruit_Username";
 const char* aioKey = "YOUR_AIO_KEY"; // Replace with your Adafruit IO Key
 
 // --- Feed Endpoints ---
-const char* servingTokenUrl = "https://io.adafruit.com/api/v2/Your Adafruit Username/feeds/servingtoken/data/last";
-const char* currentTokenUrl = "https://io.adafruit.com/api/v2/Your Adafruit Username/feeds/currenttoken/data/last";
+const char* servingTokenUrl = "https://io.adafruit.com/api/v2/Your_Adafruit_Username/feeds/servingtoken/data/last";
+const char* currentTokenUrl = "https://io.adafruit.com/api/v2/Your_Adafruit_Username/feeds/currenttoken/data/last";
 
 int currentToken = 0;
 int servingToken = 0;
